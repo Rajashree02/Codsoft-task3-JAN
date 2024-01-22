@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <article>
+                <h1>Calculator</h1>
+                <div class="box">
+                    <form  action="" name="calculator" class="form">
+                        <input type="text" value="" name="display" class="text" placeholder="0" id="display"><br>
+                        <input type="button" class="btn" value="1" onclick="displayvalue('1')" >
+                        <input type="button" class="btn" value="2" onclick="displayvalue('2')">
+                        <input type="button" class="btn" value="3" onclick="displayvalue('3')">
+                        <input type="button" class="btn" value="+" onclick="displayvalue('+')" id="opr2"><br>
+                        <input type="button" class="btn" value="4" onclick="displayvalue('4')">
+                        <input type="button" class="btn" value="5" onclick="displayvalue('5')">
+                        <input type="button" class="btn" value="6" onclick="displayvalue('6')">
+                        <input type="button" class="btn" value="-" onclick="displayvalue('-')" id="opr3"><br>
+                        <input type="button" class="btn" value="7" onclick="displayvalue('7')">
+                        <input type="button" class="btn" value="8" onclick="displayvalue('8')">
+                        <input type="button" class="btn" value="9" onclick="displayvalue('9')">
+                        <input type="button" class="btn" value="*" onclick="displayvalue('*')" id="opr4"><br>
+                        <input type="button" class="btn" value="c" onclick="displayclear()" id="opr1">
+                        <input type="button" class="btn" value="0" onclick="displayvalue('0')">
+                        <input type="button" class="btn" value="=" onclick="displayeval()">
+                        <input type="button" class="btn" value="/" onclick="displayvalue('/')" id="opr5">
+                    </form>
+            </article>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
