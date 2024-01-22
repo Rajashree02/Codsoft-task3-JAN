@@ -43,8 +43,16 @@ h1{
 #opr1{
     background: #E32636;
 }
+#opr1:hover{
+    background-color: black;
+    color: white;
+}
 #opr2{
     background: #FFFF00;
+}
+#opr2:hover{
+    background-color: black;
+    color: white;
 }
 #opr3{
     background: #FFFF00;
@@ -52,15 +60,27 @@ h1{
     padding-left: 25px;
     text-align: center;
 }
+#opr3:hover{
+    background-color: black;
+    color: white;
+}
 #opr4{
     background: #FFFF00;
     padding-right: 25px;
     padding-left: 25px;
 }
+#opr4:hover{
+    background-color: black;
+    color: white;
+}
 #opr5{
     background: #FFFF00;
     padding-right: 27px;
     padding-left: 27px;
+}
+#opr5:hover{
+    background-color: black;
+    color: white;
 }
 .btn:hover{
     background-color: orangered;
